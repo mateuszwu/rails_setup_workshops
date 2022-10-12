@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Capybara.automatic_label_click = true
 Capybara.default_max_wait_time = 8
 
