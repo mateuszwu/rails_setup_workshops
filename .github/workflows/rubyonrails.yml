@@ -35,6 +35,12 @@ jobs:
       # Add or replace test runners here
       - name: Run tests
         run: bundle exec rspec
+      - name: Archive capybara failure screenshots
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: screenshots
+          path: tmp/capybara/
 
   lint:
     runs-on: ubuntu-latest
