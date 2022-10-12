@@ -8,6 +8,7 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.hosts << 'railssetupworkshops-production.up.railway.app'
   config.hosts << 'rails-setup-workshops.onrender.com'
+  config.hosts << 'rails-setup-workshops.herokuapp.com'
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and

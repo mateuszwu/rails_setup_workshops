@@ -10,6 +10,7 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.hosts << 'railssetupworkshops-production.up.railway.app'
   config.hosts << 'rails-setup-workshops.onrender.com'
+  config.hosts << 'rails-setup-workshops.herokuapp.com'
   config.cache_classes = false
 
   # Do not eager load code on boot.
